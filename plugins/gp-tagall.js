@@ -1,6 +1,6 @@
 let handler = async (m, { conn, text, participants, isAdmin, isOwner, groupMetadata }) => {
     let users = participants.map(u => u.id).filter(v => v !== conn.user.jid)
-    m.reply(`▢ Group : *${groupMetadata.subject}*\n▢ Members : *${participants.length}*${text ? `\n▢ Message : ${text}\n` : ''}\n┌───⊷ *MENTIONS*\n` + users.map(v => '▢ @' + v.replace(/@.+/, '')).join`\n` + '\n└──✪ XLICON┃ ᴮᴼᵀ ✪──', null, {
+    m.reply(`🍀̵ׂׅ͜͡✨ 𝕲r᥆ᥙ⍴ : *${groupMetadata.subject}*\n\n🥬̸̶̊࣪͜⃝﹚ 𝕸ᥱmᑲᥱrs : *${participants.length}*${text ? `\n𒁷 𝕸ᥱssᥲgᥱ : ${text}\n` : ''}\n\n┌───⊷ 𝗠𝗘𝗡𝗧𝗜𝗢𝗡𝗦\n` + users.map(v => '𝆺𝅥𓌔⃝⃞̸̶🍊̸̶ @' + v.replace(/@.+/, '')).join`\n` + '\n𝕽ɑı𝘀ᥱׅ𐇵࣪𝖄𐐫υ𐔟࣪𐇵ׅＳρ𝗂𐔟𝗂𝗍', null, {
         mentions: users
     })
 }
@@ -8,7 +8,7 @@ let handler = async (m, { conn, text, participants, isAdmin, isOwner, groupMetad
 handler.help = ['tagall']
 handler.tags = ['group']
 handler.command = ['tagall']
-handler.admin = true
+handler.admin = false
 handler.group = true
 
 export default handler
