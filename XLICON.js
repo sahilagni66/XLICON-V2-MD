@@ -574,6 +574,7 @@ async function saafsafai() {
   console.log(chalk.cyanBright('\nStored Sessions Cleared'))
 }
 
+
 setInterval(saafsafai, 10 * 60 * 1000)
 
 _quickTest().catch(console.error)
