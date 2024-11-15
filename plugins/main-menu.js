@@ -7,30 +7,26 @@ import fetch from "node-fetch";
 
 const defaultMenu = {
   before: `
-  「 ${botname} 🎁XMD 」
+  ▬᳢̅ ⃞⚜️ᩥ᪶ 𝕱ᥱᥣі᥊ 𝕭᥆𝗍 ▬᳢̅ ⃞⚜️ᩥ᪶
   *%ucpn*
+━━─     ────    ♡    ────    ─━━
+*𝐑𝖾ꭑ𝖾ꭑᑲ𝖾𝗋𝗌 𝐓ɦ𝗂𝗌 𝐁ⱺ𝗍 𝚰𝗌 𝐎𐓣ᥣ𝗒 𝐅ⱺ𝗋 𝐄ᑯυ𝖼α𝗍𝗂ⱺ𐓣αᥣ 𝐏υ𝗋ρⱺ𝗌𝖾𝗌 *
+━━─     ────    ♡    ────    ─━━
+*©𝐅𝖾ᥣ𝗂𝗑*
 ⍟────────────────⍟
-*REMEMBER THIS BOT IS FOR EDUCATIONAL PURPOSES*
-⍟────────────────⍟
-*©Salman Ahmad*
-⍟────────────────⍟
-*_Konnichiwa! It's XLICON-MD A Multi-Device Whatsapp BOT_*
-*_Recoded By Salman Ahmad And Abraham Dwamena_*
+`⍝꯭፝֟⍝.  ‎ꆮ︪︪ ‎ּּּ ‎‌🦢𐨍റᩙ ꠩ 𝐒𝕚ᥣ𝖾ⴄ𝖼𝖾 𝗂𝗌 ⴄ𑄙𝗍 𝗍ɦ𝖾 αᑲა𝖾𝗻𝖼𝖾 ⱺ𝖿 ꯱𑄙υⴄᑯ ᑲυ𝗍 𝗍ɦ𝖾 ρ𐐲𝖾ა𝖾𝗻𝖼𝖾 ⱺ𝖿 α ᑯ𝖾𝖾ρ𝖾𐐲 ꭑ𝖾αⴄ𝗂ⴄ𝗀.𝚰ⴄ 𝗍ɦ𝖾 ꯱𝕚ᥣ𝖾𝗻𝖼𝖾, ω𝖾 𝖼αⴄ ɦ𝖾α𐐲 𝗍ɦ𝖾 ωɦ𝗂𝗌ρ𝖾𐐲ა ⱺ𝖿 ⱺυ𝗋 ꯱𑄙υᥣ. ㅤ⊹ ׄ   ִ  🌼᳢  ׄ   ִ   ʾ`
 ⍟────────────────⍟
                                    
- ▀▄▀ █░░ █ █▀▀ █▀█ █▄░█  
- █░█ █▄▄ █ █▄▄ █▄█ █░▀█  
-          
- █▀▄▀█ █▀▄
- █░▀░█ █▄▀
+█▀▀ █▀▀ █░░ █ ▀▄▀
+█▀░ ██▄ █▄▄ █ █░█
+ 
+━━─     ────    ♡    ────    ─━━
+   ▬᳢̅ ⃞⚜️ᩥ᪶   Ｉｎｆｏ   ▬᳢̅ ⃞⚜️ᩥ᪶
 
-╭─────────────────⦿
-┃   🔰〘 𝙄𝙉𝙁𝙊 〙🔰
-╰┬────────────────⦿
 ┌┤
 ┃
-┃ *_Founder_*: Salman Ahmad 
-┃ *_Bot Name_*: ${botname}
+┃ *_Founder_*: 𝐅𝖾ᥣ𝗂𝗑  
+┃ *_Bot Name_*: 𝐅𝖾ᥣ𝗂𝗑 
 ┃ *_Mode_*: %mode
 ┃ *_HOST_*: Kali Linux
 ┃ *_Type_*: NodeJs
@@ -40,24 +36,24 @@ const defaultMenu = {
 ┃ *_Database_*: %totalreg
 ┃
 ╰──────────────────⦿
-╭──────────────────⦿
-┃    🔰〘 𝙐𝙎𝙀𝙍 〙🔰
-╰┬─────────────────⦿
+━━─     ────    ♡    ────    ─━━
+     ▬᳢̅ ⃞⚜️ᩥ᪶   Ｕｓｅｒ  ▬᳢̅ ⃞⚜️ᩥ᪶
+━━─     ────    ♡    ────    ─━━
 ┌┤     
 ┃
 ┃ *_Name_*: %name
 ┃ *_Gold_*: %credit
-┃ *_Role_*: XLICON-MD-TESTER
+┃ *_Role_*: 𝐅𝖾ᥣ𝗂𝗑 
 ┃ *_Level_*: %level [%xp4levelup XP for level up]
 ┃ *_Xp_*: %exp / %maxexp
 ┃ *_Total Xp_*: %totalexp
 ┃
 ╰──────────────────⦿
-╭──────────────────⦿
-┃   🔰〘 𝑰𝑵𝑭𝑶 𝑪𝑴𝑫 〙🔰
-╰┬─────────────────⦿
+━━─     ────    ♡    ────    ─━━
+▬᳢̅ ⃞⚜️ᩥ᪶   Ｉｎｆｏ　Ｃｍｄ ▬᳢̅ ⃞⚜️ᩥ᪶
+━━─     ────    ♡    ────    ─━━
 ┌┤ 
-┃ *_%totalfeatures_* Commands
+┃ *_%totalfeatures_* Ｃｏｍｍａｎｄ
 ╰──────────────────⦿
   `.trimStart(),
   header: "┌─⦿『 *_%category_* 』⦿",
