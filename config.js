@@ -48,8 +48,8 @@ global.APIKeys = {
 // Sticker WM
 global.botname = '𝐅𝖾ᥣ𝗂𝗑'
 global.premium = 'true'
-global.packname = 'Fꫀׁׅܻᥣׁׅ֪ꪱׁׅ᥊ׁׅ' 
-global.author = 'Shׁׅ֮ɑׁׅ֮hׁׅ֮ꭈׁׅυׁׅƙׁׅ֑hׁׅ֮ Khׁׅ֮ɑׁׅ֮ꪀׁׅ' 
+global.packname = process.env.PACK_NAME 
+global.author = 'Fꫀׁׅܻᥣׁׅ֪ꪱׁׅ᥊ׁׅ' 
 global.menuvid = 'https://telegra.ph/file/325630f66abc968eda8e2.mp4'
 global.igfg = '▢✓ Follow Our channel\https://chat.whatsapp.com/EOojWFPhi2204G7mEFFKXc\n' 
 global.dygp = 'https://chat.whatsapp.com/EOojWFPhi2204G7mEFFKXc'
