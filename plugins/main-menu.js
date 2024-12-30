@@ -7,12 +7,12 @@ import fetch from "node-fetch";
 
 const defaultMenu = {
   before: `
-  「 ${botname} 🎁XMD 」
+  > Ｆｅｌｉｘ Ｂｏｔ 
   *%ucpn*
-⍟────────────────⍟
-*REMEMBER THIS BOT IS FOR EDUCATIONAL PURPOSES*
-⍟────────────────⍟
-*©Salman Ahmad*
+▬᳢̅ ⃞ᩦؙ︩︪̆፝⚓᷒────    ♡    ────▬᳢̅ ⃞ᩦؙ︩︪̆፝⚓᷒
+*𝆹𝅥𝆭𝆺̸̶𝅥⃝🍶⃞. Ხᧉ࣪ɑׅ᥎𐐫𝗂᧑︪︩ᧉ࣪ᥰᨭ𝗍.ׄɑᥰ࣪ᧉ᧑͠ɦ𐐫ׅ࣪.⛲⃝*
+▬᳢̅ ⃞ᩦؙ︩︪̆፝⚓᷒────    ♡    ────▬᳢̅ ⃞ᩦؙ︩︪̆፝⚓᷒
+*𐊿𝗂ժժᥣᧉᨭƒ𝗍ɦᧉᥰ𝗂ᧇɦ𝗍*
 ⍟────────────────⍟
 *_Konnichiwa! It's XLICON-MD A Multi-Device Whatsapp BOT_*
 *_Recoded By Salman Ahmad And Abraham Dwamena_*
