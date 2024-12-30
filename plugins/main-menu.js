@@ -7,58 +7,16 @@ import fetch from "node-fetch";
 
 const defaultMenu = {
   before: `
-  > Ｆｅｌｉｘ Ｂｏｔ 
+𝐌⃝𝗂𐓣ᑯ 𝗒ⱺυ'𝗋𝖾 ⱺω𐓣 ᑲυ𝗌𝗂𐓣𝖾𝗌𝗌𓋜
   *%ucpn*
 ▬᳢̅ ⃞ᩦؙ︩︪̆፝⚓᷒────    ♡    ────▬᳢̅ ⃞ᩦؙ︩︪̆፝⚓᷒
 *𝆹𝅥𝆭𝆺̸̶𝅥⃝🍶⃞. Ხᧉ࣪ɑׅ᥎𐐫𝗂᧑︪︩ᧉ࣪ᥰᨭ𝗍.ׄɑᥰ࣪ᧉ᧑͠ɦ𐐫ׅ࣪.⛲⃝*
 ▬᳢̅ ⃞ᩦؙ︩︪̆፝⚓᷒────    ♡    ────▬᳢̅ ⃞ᩦؙ︩︪̆፝⚓᷒
-*𐊿𝗂ժժᥣᧉᨭƒ𝗍ɦᧉᥰ𝗂ᧇɦ𝗍*
-⍟────────────────⍟
-*_Konnichiwa! It's XLICON-MD A Multi-Device Whatsapp BOT_*
-*_Recoded By Salman Ahmad And Abraham Dwamena_*
-⍟────────────────⍟
-                                   
- ▀▄▀ █░░ █ █▀▀ █▀█ █▄░█  
- █░█ █▄▄ █ █▄▄ █▄█ █░▀█  
-          
- █▀▄▀█ █▀▄
- █░▀░█ █▄▀
-
-╭─────────────────⦿
-┃   🔰〘 𝙄𝙉𝙁𝙊 〙🔰
-╰┬────────────────⦿
-┌┤
-┃
-┃ *_Founder_*: Salman Ahmad 
-┃ *_Bot Name_*: ${botname}
-┃ *_Mode_*: %mode
-┃ *_HOST_*: Kali Linux
-┃ *_Type_*: NodeJs
-┃ *_Baileys_*: Multi Device
-┃ *_Prefix_*: [ *%_p* ]
-┃ *_Uptime_*: %muptime
-┃ *_Database_*: %totalreg
-┃
-╰──────────────────⦿
-╭──────────────────⦿
-┃    🔰〘 𝙐𝙎𝙀𝙍 〙🔰
-╰┬─────────────────⦿
-┌┤     
-┃
-┃ *_Name_*: %name
-┃ *_Gold_*: %credit
-┃ *_Role_*: XLICON-MD-TESTER
-┃ *_Level_*: %level [%xp4levelup XP for level up]
-┃ *_Xp_*: %exp / %maxexp
-┃ *_Total Xp_*: %totalexp
-┃
-╰──────────────────⦿
-╭──────────────────⦿
-┃   🔰〘 𝑰𝑵𝑭𝑶 𝑪𝑴𝑫 〙🔰
-╰┬─────────────────⦿
-┌┤ 
-┃ *_%totalfeatures_* Commands
-╰──────────────────⦿
+> Ｆｅｌｉｘ Ｂｏｔ 
+                                  
+ ▬᳢̅ ⃞⚜️ᩥ᪶────────────── ▬᳢̅ ⃞⚜️ᩥ᪶ 
+▌         𝐂ⱺꭑꭑα𐓣ᑯ𝗌
+ ▬᳢̅ ⃞⚜️ᩥ᪶─────────────── ▬᳢̅ ⃞⚜️ᩥ᪶
   `.trimStart(),
   header: "┌─⦿『 *_%category_* 』⦿",
   body: "┃⬡▸ %cmd %isPremium %islimit",
