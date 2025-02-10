@@ -16,13 +16,13 @@ let handler = async (m, { conn, text, usedPrefix }) => {
 
  const message = `
 ───────────────
-✨ ${firstResult.title} ✨
+❗ ${firstResult.title} ❗
 ───────────────
 🖇️ *Link*: ${firstResult.url} ${firstResult.url}  
 ⏱️ *Duration*: ${firstResult.timestamp}  
 📅 *Published*: ${firstResult.ago}  
 👁️ *Views*: ${firstResult.views}  
-     *MADE WITH LOVE BY XLICON V2*
+     *ׅ ׄ𖫑ᩞ ፝֟᷼͡ 𖫑ᩞ ׄ ׅ- Ɗყi̫ɳ𝐠 i̫ɳຮi̫d͟͟͠ᥱ , Տ𑜀i̫ᥣi̫ɳ𝐠 𑄝ׁ𝐮t͟ຮi̫d͟͟͠ᥱ. 𝗹̶͟🌙᪶ 𝆬 ׅ ꒱*
 ───────────────
 `;
     await conn.sendFile(m.chat, firstResult.thumbnail, 'yts.jpeg', message, m);
